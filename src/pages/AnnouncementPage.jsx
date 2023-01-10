@@ -4,6 +4,7 @@ import { RegisterCard } from '../components/RegisterCard';
 import { useEffect } from 'preact/hooks';
 import { useNavigate } from "react-router-dom";
 import { Button } from '../components/input/Button';
+import { Navbar } from '../components/Navbar';
 
 export const AnnouncementPage = () => {
     const navigate = useNavigate();
